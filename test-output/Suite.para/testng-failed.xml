@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite.para]">
+  <parameter name="password" value=" 3765786"/>
+  <parameter name="username" value=" Muthu@gmail.com"/>
+  <test name="Test.para(failed)">
+    <parameter name="password" value=" 3765786"/>
+    <classes>
+      <class name="org.parameters.ClassA">
+        <methods>
+          <include name="testA2"/>
+        </methods>
+      </class> <!-- org.parameters.ClassA -->
+    </classes>
+  </test> <!-- Test.para(failed) -->
+</suite> <!-- Failed suite [Suite.para] -->
